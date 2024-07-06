@@ -1,0 +1,155 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/origin/small24,Root/origin/small,Root/origin/small22",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"mycelium3": "block/plant/mushroom/mycelium3",
+		"pigtail": "block/plant/mushroom/pigtail/pigtail",
+		"pores": "block/plant/mushroom/pores"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "voxel1",
+					"from": [ -1.7, 0.0, 0.7 ],
+					"to": [ -0.7, 1.0, 1.7 ],
+					"rotationOrigin": [ -1.2, 0.0, 1.2 ],
+					"rotationY": 22.0,
+					"faces": {
+						"north": { "texture": "#pigtail", "uv": [ 2.0, 13.5, 3.0, 14.5 ] },
+						"east": { "texture": "#pigtail", "uv": [ 1.5, 12.0, 2.5, 13.0 ] },
+						"south": { "texture": "#pigtail", "uv": [ 0.5, 12.5, 1.5, 13.5 ] },
+						"west": { "texture": "#pigtail", "uv": [ 1.0, 11.5, 2.0, 12.5 ] },
+						"up": { "texture": "#pigtail", "uv": [ 1.5, 11.0, 2.5, 12.0 ] },
+						"down": { "texture": "#pigtail", "uv": [ 1.5, 13.0, 2.5, 14.0 ] }
+					}
+				},
+				{
+					"name": "mycelium",
+					"from": [ -2.0, 0.1, -2.0 ],
+					"to": [ 2.0, 0.1, 2.0 ],
+					"renderPass": 3,
+					"rotationOrigin": [ 0.0, 0.1, 0.0 ],
+					"faces": {
+						"up": { "texture": "#mycelium3", "uv": [ 6.0, 6.0, 10.0, 10.0 ] }
+					}
+				},
+				{
+					"name": "stem13",
+					"from": [ 0.16, -0.2835, 0.41 ],
+					"to": [ 0.97, 1.6065, 1.22 ],
+					"rotationOrigin": [ 0.595, -0.2835, 0.84 ],
+					"rotationX": -156.0,
+					"rotationY": -34.5,
+					"rotationZ": -167.0,
+					"faces": {
+						"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 1.0, 8.5 ] },
+						"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 1.5, 10.5 ] },
+						"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 1.5, 11.0 ] },
+						"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 1.5, 9.5 ] },
+						"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "stem14",
+							"from": [ -0.09, 1.545, -0.015 ],
+							"to": [ 0.72, 3.435, 0.795 ],
+							"rotationOrigin": [ 0.3443, 1.5482, 0.4134 ],
+							"rotationX": -24.82,
+							"rotationY": -16.0,
+							"rotationZ": -23.0,
+							"faces": {
+								"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 1.25, 8.875 ] },
+								"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 1.75, 10.875 ] },
+								"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 1.75, 11.375 ] },
+								"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 1.75, 9.875 ] },
+								"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.75, 0.75 ] }
+							},
+							"children": [
+								{
+									"name": "stem15",
+									"from": [ 0.135, 1.5525, 0.0 ],
+									"to": [ 0.945, 3.4425, 0.81 ],
+									"rotationOrigin": [ 0.567, 1.5525, 0.432 ],
+									"rotationX": -12.0,
+									"rotationY": 3.0,
+									"rotationZ": -48.0,
+									"faces": {
+										"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 1.175, 8.6875 ] },
+										"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 1.675, 10.6875 ] },
+										"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 1.675, 11.1875 ] },
+										"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 1.675, 9.6875 ] },
+										"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.675, 0.675 ] }
+									},
+									"children": [
+										{
+											"name": "stem16",
+											"from": [ -0.0108, 1.5228, 0.0 ],
+											"to": [ 0.7992, 3.4128, 0.81 ],
+											"rotationOrigin": [ 0.423, 1.5254, 0.432 ],
+											"rotationX": 44.91,
+											"rotationY": -2.49,
+											"rotationZ": 4.06,
+											"faces": {
+												"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 1.175, 8.6875 ] },
+												"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 1.675, 10.6875 ] },
+												"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 1.675, 11.1875 ] },
+												"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 1.675, 9.6875 ] },
+												"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.675, 0.675 ] }
+											},
+											"children": [
+												{
+													"name": "stem17",
+													"from": [ -0.2674, 1.7276, -0.3147 ],
+													"to": [ 1.0826, 2.5376, 1.0353 ],
+													"rotationOrigin": [ 0.1646, 1.7276, 0.1173 ],
+													"faces": {
+														"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 1.85, 7.675 ] },
+														"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 2.35, 9.675 ] },
+														"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 2.35, 10.175 ] },
+														"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 2.35, 8.675 ] },
+														"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 1.35, 1.35 ] },
+														"down": { "texture": "#pigtail", "uv": [ 1.5, 6.0, 2.85, 7.35 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "voxel26",
+					"from": [ 0.0, -0.1, -1.0 ],
+					"to": [ 1.0, 0.9, 0.0 ],
+					"rotationOrigin": [ 0.5, -0.1, -0.5 ],
+					"rotationX": 9.0,
+					"rotationY": 22.0,
+					"rotationZ": 4.0,
+					"faces": {
+						"north": { "texture": "#pigtail", "uv": [ 2.0, 13.5, 3.0, 14.5 ] },
+						"east": { "texture": "#pigtail", "uv": [ 1.5, 12.0, 2.5, 13.0 ] },
+						"south": { "texture": "#pigtail", "uv": [ 0.5, 12.5, 1.5, 13.5 ] },
+						"west": { "texture": "#pigtail", "uv": [ 1.0, 11.5, 2.0, 12.5 ] },
+						"up": { "texture": "#pigtail", "uv": [ 1.5, 11.0, 2.5, 12.0 ] },
+						"down": { "texture": "#pigtail", "uv": [ 1.5, 13.0, 2.5, 14.0 ] }
+					}
+				}
+			]
+		}
+	]}

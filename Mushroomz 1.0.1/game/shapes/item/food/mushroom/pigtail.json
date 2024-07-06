@@ -1,0 +1,116 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"pigtail": "block/plant/mushroom/pigtail/pigtail",
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "stem3",
+					"from": [ -0.8, -0.4, -0.8 ],
+					"to": [ 0.7, 3.1, 0.7 ],
+					"rotationOrigin": [ 0.0, -0.4, 0.0 ],
+					"rotationX": 15.0,
+					"rotationY": -113.5,
+					"rotationZ": -12.0,
+					"faces": {
+						"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 2.0, 10.5 ] },
+						"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 2.5, 12.5 ] },
+						"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 2.5, 13.0 ] },
+						"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 2.5, 11.5 ] },
+						"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "stem4",
+							"from": [ -0.0236, 2.867, -0.1733 ],
+							"to": [ 1.4764, 6.367, 1.3267 ],
+							"rotationOrigin": [ 0.7764, 2.867, 0.6267 ],
+							"rotationX": 50.82,
+							"rotationY": -12.36,
+							"rotationZ": 15.88,
+							"faces": {
+								"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 2.0, 10.5 ] },
+								"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 2.5, 12.5 ] },
+								"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 2.5, 13.0 ] },
+								"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 2.5, 11.5 ] },
+								"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1] }
+							},
+							"children": [
+								{
+									"name": "stem5",
+									"from": [ 0.0, 3.0, 0.0 ],
+									"to": [ 1.5, 6.5, 1.5 ],
+									"rotationOrigin": [ 0.8, 3.0, 0.8 ],
+									"rotationX": -12.0,
+									"rotationY": 3.0,
+									"rotationZ": 40.0,
+									"faces": {
+										"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 2.0, 10.5 ] },
+										"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 2.5, 12.5 ] },
+										"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 2.5, 13.0 ] },
+										"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 2.5, 11.5 ] },
+										"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+									},
+									"children": [
+										{
+											"name": "stem6",
+											"from": [ -0.02, 2.82, 0.0 ],
+											"to": [ 1.48, 6.32, 1.5 ],
+											"rotationOrigin": [ 0.7833, 2.8248, 0.8 ],
+											"rotationX": -30.91,
+											"rotationY": 12.509,
+											"rotationZ": 18.057,
+											"faces": {
+												"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 2.0, 10.5 ] },
+												"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 2.5, 12.5 ] },
+												"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 2.5, 13.0 ] },
+												"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 2.5, 11.5 ] },
+												"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+											},
+											"children": [
+												{
+													"name": "stem7",
+													"from": [ -0.4953, 3.1992, -0.5828 ],
+													"to": [ 2.0047, 4.6992, 1.9172 ],
+													"rotationOrigin": [ 0.3047, 3.1992, 0.2172 ],
+													"faces": {
+														"north": { "texture": "#pigtail", "uv": [ 0.5, 7.0, 3.0, 8.5 ] },
+														"east": { "texture": "#pigtail", "uv": [ 1.0, 9.0, 3.5, 10.5 ] },
+														"south": { "texture": "#pigtail", "uv": [ 1.0, 9.5, 3.5, 11.0 ] },
+														"west": { "texture": "#pigtail", "uv": [ 1.0, 8.0, 3.5, 9.5 ] },
+														"up": { "texture": "#pigtail", "uv": [ 0.0, 0.0, 2.5, 2.5 ] },
+														"down": { "texture": "#pigtail", "uv": [ 1.5, 6.0, 4.0, 8.5 ], "windMode": [-1,-1,-1,-1] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

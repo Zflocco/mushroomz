@@ -1,0 +1,450 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"dwarvesbeard": "block/plant/mushroom/dwarvesbeard/dwarvesbeard",
+		"mane": "block/plant/mushroom/dwarvesbeard/mane"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "att1",
+					"from": [ -3.6, 6.4, 6.1 ],
+					"to": [ -0.6, 8.4, 9.1 ],
+					"renderPass": 1,
+					"rotationOrigin": [ -2.1, 6.5, 9.0 ],
+					"rotationX": -28.0,
+					"faces": {
+						"north": { "texture": "#dwarvesbeard", "uv": [ 5.0, 10.5, 8.0, 12.5 ] },
+						"east": { "texture": "#dwarvesbeard", "uv": [ 3.0, 10.5, 6.0, 12.5 ] },
+						"south": { "texture": "#dwarvesbeard", "uv": [ 5.5, 10.5, 8.5, 12.5 ] },
+						"west": { "texture": "#dwarvesbeard", "uv": [ 11.0, 10.5, 14.0, 12.5 ] },
+						"up": { "texture": "#dwarvesbeard", "uv": [ 9.0, 3.5, 12.0, 6.5 ] },
+						"down": { "texture": "#dwarvesbeard", "uv": [ 6.0, 3.0, 9.0, 6.0 ] }
+					},
+					"children": [
+						{
+							"name": "1s1",
+							"from": [ 0.0, -1.0, 0.0 ],
+							"to": [ 0.0, 1.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.0, 1.5 ],
+							"rotationZ": -44.0,
+							"faces": {
+								"west": { "texture": "#mane", "uv": [ 1.5, 6.0, 4.5, 8.0 ] }
+							}
+						},
+						{
+							"name": "1s2",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.0, 2.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 2.0, 1.5 ],
+							"rotationZ": -30.0,
+							"faces": {
+								"west": { "texture": "#mane", "uv": [ 8.0, 6.5, 11.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "1n1",
+							"from": [ 3.0, -1.0, 0.0 ],
+							"to": [ 3.0, 1.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 3.0, 1.0, 1.5 ],
+							"rotationZ": 22.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 11.0, 6.5, 14.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "1n2",
+							"from": [ 3.0, 0.0, 0.0 ],
+							"to": [ 3.0, 2.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 3.0, 2.0, 1.5 ],
+							"rotationZ": 17.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 7.0, 6.5, 10.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "1w1",
+							"from": [ 0.0, -1.0, 0.0 ],
+							"to": [ 3.0, 1.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 1.0, 0.0 ],
+							"rotationX": 30.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 7.0, 6.5, 10.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "1w2",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 3.0, 2.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 2.0, 0.0 ],
+							"rotationX": 30.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 6.0, 6.5, 9.0, 8.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "att3",
+					"from": [ 1.9, 8.3, 7.5 ],
+					"to": [ 4.9, 10.3, 10.5 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 1.9, 8.3, 9.0 ],
+					"rotationX": -14.0,
+					"rotationY": 89.9,
+					"faces": {
+						"north": { "texture": "#dwarvesbeard", "uv": [ 6.0, 12.5, 9.0, 14.5 ] },
+						"east": { "texture": "#dwarvesbeard", "uv": [ 9.5, 10.5, 12.5, 12.5 ] },
+						"south": { "texture": "#dwarvesbeard", "uv": [ 5.0, 10.5, 8.0, 12.5 ] },
+						"up": { "texture": "#dwarvesbeard", "uv": [ 7.5, 3.0, 10.5, 6.0 ] },
+						"down": { "texture": "#dwarvesbeard", "uv": [ 8.5, 10.5, 11.5, 13.5 ] }
+					},
+					"children": [
+						{
+							"name": "2e1",
+							"from": [ 3.0, -1.5, 0.0 ],
+							"to": [ 3.0, 0.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 3.0, 0.0, 1.5 ],
+							"rotationZ": 19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 12.5, 7.0, 15.5, 8.5 ] }
+							}
+						},
+						{
+							"name": "2e2",
+							"from": [ 3.0, -0.5, 0.0 ],
+							"to": [ 3.0, 1.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 3.0, 1.0, 1.5 ],
+							"rotationZ": 19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 3.0, 6.0, 6.0, 7.5 ] }
+							}
+						},
+						{
+							"name": "2e3",
+							"from": [ 3.0, 0.5, 0.0 ],
+							"to": [ 3.0, 2.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 3.0, 2.0, 1.5 ],
+							"rotationZ": 19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 8.5, 6.5, 11.5, 8.0 ] }
+							}
+						},
+						{
+							"name": "2n1",
+							"from": [ 0.0, -1.5, 0.0 ],
+							"to": [ 3.0, 0.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 0.0, 0.0 ],
+							"rotationX": 28.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 12.5, 6.5, 15.5, 8.0 ] }
+							}
+						},
+						{
+							"name": "2n2",
+							"from": [ 0.0, -0.5, 0.0 ],
+							"to": [ 3.0, 1.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 1.0, 0.0 ],
+							"rotationX": 28.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 1.0, 7.5, 4.0, 9.0 ] }
+							}
+						},
+						{
+							"name": "2n3",
+							"from": [ 0.0, 0.5, 0.0 ],
+							"to": [ 3.0, 2.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 2.0, 0.0 ],
+							"rotationX": 28.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 9.0, 7.5, 12.0, 9.0 ] }
+							}
+						},
+						{
+							"name": "2s1",
+							"from": [ 0.0, -1.5, 3.0 ],
+							"to": [ 3.0, 0.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 0.0, 3.0 ],
+							"rotationX": -19.0,
+							"faces": {
+								"south": { "texture": "#mane", "uv": [ 11.5, 6.5, 14.5, 8.0 ] }
+							}
+						},
+						{
+							"name": "2s2",
+							"from": [ 0.0, -0.5, 3.0 ],
+							"to": [ 3.0, 1.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 1.0, 3.0 ],
+							"rotationX": -33.0,
+							"faces": {
+								"south": { "texture": "#mane", "uv": [ 12.0, 7.0, 15.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "2s3",
+							"from": [ 0.0, 0.5, 3.0 ],
+							"to": [ 3.0, 2.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 2.0, 3.0 ],
+							"rotationX": -42.0,
+							"faces": {
+								"south": { "texture": "#mane", "uv": [ 5.0, 7.0, 8.0, 8.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "att2",
+					"from": [ -7.3, 13.0, 6.8 ],
+					"to": [ -5.3, 14.0, 8.8 ],
+					"renderPass": 1,
+					"rotationOrigin": [ -6.3, 14.0, 7.8 ],
+					"rotationX": -13.6,
+					"rotationY": 0.2,
+					"rotationZ": -5.6,
+					"faces": {
+						"north": { "texture": "#dwarvesbeard", "uv": [ 6.5, 6.0, 8.5, 7.0 ] },
+						"east": { "texture": "#dwarvesbeard", "uv": [ 9.5, 12.0, 11.5, 13.0 ] },
+						"south": { "texture": "#dwarvesbeard", "uv": [ 9.5, 15.0, 11.5, 16.0 ] },
+						"west": { "texture": "#dwarvesbeard", "uv": [ 8.5, 12.0, 10.5, 13.0 ] },
+						"up": { "texture": "#dwarvesbeard", "uv": [ 6.0, 5.5, 8.0, 7.5 ] },
+						"down": { "texture": "#dwarvesbeard", "uv": [ 8.5, 3.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "attN",
+							"from": [ 0.0, -1.0, 0.0 ],
+							"to": [ 2.0, 1.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.0, 1.0, 0.0 ],
+							"rotationX": 17.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 11.5, 7.0, 13.5, 9.0 ] }
+							}
+						},
+						{
+							"name": "attE",
+							"from": [ 2.0, -1.0, 0.0 ],
+							"to": [ 2.0, 1.0, 2.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 2.0, 1.0, 1.0 ],
+							"rotationZ": 19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 6.0, 6.5, 8.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "attW",
+							"from": [ 0.0, -1.0, 0.0 ],
+							"to": [ 0.0, 1.0, 2.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+							"rotationZ": -19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 6.0, 6.5, 8.0, 8.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "top",
+					"from": [ 3.6, 11.8, 6.5 ],
+					"to": [ 6.6, 13.8, 9.5 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 11.8, 9.0 ],
+					"rotationX": -7.9,
+					"rotationY": 44.9,
+					"rotationZ": -7.9,
+					"faces": {
+						"north": { "texture": "#dwarvesbeard", "uv": [ 5.5, 8.5, 8.5, 10.5 ] },
+						"east": { "texture": "#dwarvesbeard", "uv": [ 8.0, 9.0, 11.0, 11.0 ] },
+						"south": { "texture": "#dwarvesbeard", "uv": [ 9.5, 14.0, 12.5, 16.0 ] },
+						"west": { "texture": "#dwarvesbeard", "uv": [ 6.0, 11.0, 9.0, 13.0 ] },
+						"up": { "texture": "#dwarvesbeard", "uv": [ 5.5, 1.0, 8.5, 4.0 ] },
+						"down": { "texture": "#dwarvesbeard", "uv": [ 6.0, 2.5, 9.0, 5.5 ] }
+					},
+					"children": [
+						{
+							"name": "tw",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.0, 2.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 2.0, 2.5 ],
+							"rotationZ": -47.0,
+							"faces": {
+								"west": { "texture": "#mane", "uv": [ 10.0, 6.5, 13.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "ts",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 3.0, 2.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 2.5, 2.0, 0.0 ],
+							"rotationX": 28.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 12.5, 6.5, 15.5, 8.5 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "te",
+							"from": [ 3.0, 0.0, 0.0 ],
+							"to": [ 3.0, 2.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 3.0, 2.0, 2.5 ],
+							"rotationZ": 36.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 9.5, 6.5, 12.5, 8.5 ] }
+							}
+						},
+						{
+							"name": "tn",
+							"from": [ 0.0, 0.0, 3.0 ],
+							"to": [ 3.0, 2.0, 3.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 2.5, 2.0, 3.0 ],
+							"rotationX": -33.0,
+							"faces": {
+								"south": { "texture": "#mane", "uv": [ 11.0, 7.0, 14.0, 9.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "att28",
+					"from": [ -4.3, 2.0, 6.8 ],
+					"to": [ -2.3, 3.0, 8.8 ],
+					"renderPass": 1,
+					"rotationOrigin": [ -3.3, 3.0, 7.8 ],
+					"rotationX": -11.0,
+					"rotationY": 0.2,
+					"rotationZ": 14.0,
+					"faces": {
+						"north": { "texture": "#dwarvesbeard", "uv": [ 6.5, 6.0, 8.5, 7.0 ] },
+						"east": { "texture": "#dwarvesbeard", "uv": [ 9.5, 12.0, 11.5, 13.0 ] },
+						"south": { "texture": "#dwarvesbeard", "uv": [ 9.5, 15.0, 11.5, 16.0 ] },
+						"west": { "texture": "#dwarvesbeard", "uv": [ 8.5, 12.0, 10.5, 13.0 ] },
+						"up": { "texture": "#dwarvesbeard", "uv": [ 6.0, 5.5, 8.0, 7.5 ] },
+						"down": { "texture": "#dwarvesbeard", "uv": [ 8.5, 3.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "attN29",
+							"from": [ 0.0, -1.0, 0.0 ],
+							"to": [ 2.0, 1.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.0, 1.0, 0.0 ],
+							"rotationX": 17.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 11.5, 7.0, 13.5, 9.0 ] }
+							}
+						},
+						{
+							"name": "attE30",
+							"from": [ 2.0, -1.0, 0.0 ],
+							"to": [ 2.0, 1.0, 2.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 2.0, 1.0, 1.0 ],
+							"rotationZ": 19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 6.0, 6.5, 8.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "attW31",
+							"from": [ 0.0, -1.0, 0.0 ],
+							"to": [ 0.0, 1.0, 2.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+							"rotationZ": -19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 6.0, 6.5, 8.0, 8.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "att32",
+					"from": [ 3.7, 3.0, 6.8 ],
+					"to": [ 5.7, 4.0, 8.8 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 4.7, 4.0, 7.8 ],
+					"rotationX": -11.0,
+					"rotationY": 0.2,
+					"rotationZ": -14.0,
+					"faces": {
+						"north": { "texture": "#dwarvesbeard", "uv": [ 6.5, 6.0, 8.5, 7.0 ] },
+						"east": { "texture": "#dwarvesbeard", "uv": [ 9.5, 12.0, 11.5, 13.0 ] },
+						"south": { "texture": "#dwarvesbeard", "uv": [ 9.5, 15.0, 11.5, 16.0 ] },
+						"west": { "texture": "#dwarvesbeard", "uv": [ 8.5, 12.0, 10.5, 13.0 ] },
+						"up": { "texture": "#dwarvesbeard", "uv": [ 6.0, 5.5, 8.0, 7.5 ] },
+						"down": { "texture": "#dwarvesbeard", "uv": [ 8.5, 3.0, 10.5, 5.0 ] }
+					},
+					"children": [
+						{
+							"name": "attN33",
+							"from": [ 0.0, -1.0, 0.0 ],
+							"to": [ 2.0, 1.0, 0.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 1.0, 1.0, 0.0 ],
+							"rotationX": 17.0,
+							"faces": {
+								"north": { "texture": "#mane", "uv": [ 11.5, 7.0, 13.5, 9.0 ] }
+							}
+						},
+						{
+							"name": "attE34",
+							"from": [ 2.0, -1.0, 0.0 ],
+							"to": [ 2.0, 1.0, 2.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 2.0, 1.0, 1.0 ],
+							"rotationZ": 19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 6.0, 6.5, 8.0, 8.5 ] }
+							}
+						},
+						{
+							"name": "attW35",
+							"from": [ 0.0, -1.0, 0.0 ],
+							"to": [ 0.0, 1.0, 2.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+							"rotationZ": -19.0,
+							"faces": {
+								"east": { "texture": "#mane", "uv": [ 6.0, 6.5, 8.0, 8.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}
