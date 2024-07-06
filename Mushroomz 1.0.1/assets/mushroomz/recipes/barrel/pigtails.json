@@ -1,0 +1,12 @@
+﻿[
+{
+	enabled: true,
+	code: "pigtail",
+	sealHours: 128,
+	ingredients: [
+	{type: "item",code: "game:waterportion",litres:3,consumelitres:3},
+	{type: "block",code: "game:mushroom-pigtail-normal",quantity: 1}
+	],
+	output: {type: "item",code: "game:flaxfibers",stackSize: 4}
+}
+]

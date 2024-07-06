@@ -1,0 +1,377 @@
+[
+
+/////////////////////
+  {"enabled":true,
+    "op": "remove",
+    "path": "/attributes/mushroomProps/dieWhenTempBelow",
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {"enabled":true,
+    "op": "add",
+    "path": "/attributes/mushroomProps/dieWhenTempBelowByType",
+    "value": {
+      "*-plumphelmet-*": -30,
+      "*-pigtail-*": -20,
+      "*-dimplecup-*": -50,
+	  "*-waxcap-*": -5,
+	  "*-utzathudal-*": -20,
+	  "*-goldenloaf-*": -12,
+	   "*": 0
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+/////////////////////
+  { "op": "remove", "path": "/attributes/nutritionPropsWhenInMeal/satiety", "file": "game:blocktypes/plant/mushroom.json" },
+  
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal/satietyByType",
+    "value": {
+      "*-plumphelmet-*": 150,
+      "*-dimplecup-*": 100,
+      "*-pigtail-*": 30,
+	  "*-waxcap-*":85,
+	  "*-utzathudal-*":50,
+	  "*-goldenloaf-*":135,	  
+	  "*": 125
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/mushroomz",
+    "value": [
+      "*-plumphelmet-normal",
+      "*-pigtail-normal",
+      "*-dimplecup-normal",
+	  "*-waxcap-normal",
+	  "*-utzathudal-normal",
+	  "*-goldenloaf-normal",
+    ],
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+//////////////////////////////////////////
+  { "op": "remove", "path": "/attributes/nutritionPropsWhenInMeal/foodcategory", "file": "game:blocktypes/plant/mushroom.json" },
+  
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal/foodcategoryByType",
+    "value": {
+	"*-utzathudal-*": "Protein",
+	"*-goldenloaf-*": "Grain",
+	"*": "Vegetable",
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+//////////////////////////////////////////
+  
+  
+  
+  
+
+
+{   "op": "remove", "path": "/nutritionPropsByType/*", "file": "game:blocktypes/plant/mushroom.json" },
+
+
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-dimplecup-*",
+    "value": {
+      "saturation": 45,
+      "health": 0,
+      "foodcategory": "Vegetable"
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-pigtail-*",
+    "value": {
+      "saturation": 15,
+      "health": 0,
+      "foodcategory": "Vegetable"
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-plumphelmet-*",
+    "value": {
+      "saturation": 60,
+      "health": 0,
+      "foodcategory": "Vegetable"
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  
+  
+  
+  
+  
+  
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-waxcap-*",
+    "value": {
+      "saturation": 40,
+      "health": 0,
+      "foodcategory": "Vegetable"
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-utzathudal-*",
+    "value": {
+      "saturation": 25,
+      "health": 0,
+      "foodcategory": "Protein"
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-goldenloaf-*",
+    "value": {
+      "saturation": 75,
+      "health": 0,
+      "foodcategory": "Grain"
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/*",
+    "value": {
+      "saturation": 80,
+      "health": 0,
+      "foodcategory": "Vegetable"
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/skipVariants/12",
+    "value": "mushroom-dwarvesbeard-*",
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/13",
+    "value": "mushroom-basiliskfang-*",
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/14",
+    "value": "mushroom-zubarf-*",
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////
+
+  
+  
+  
+  
+    {
+    "op": "add",
+    "path": "/attributes/inContainerTexture",
+    "value": {
+      "base": "block/food/pie/fill-mushroombrown"
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "*-pigtail-*": {
+        "texture": "block/food/pie/fill-potato",
+        "partType": "Filling"
+      },
+      "*-plumphelmet-*": {
+        "texture": "block/food/pie/fill-plum",
+        "partType": "Filling"
+      },
+      "*-dimplecup-*": {
+        "texture": "block/food/pie/fill-mushroomblue",
+        "partType": "Filling"
+      },
+      "*-flyagaric-*": {
+        "texture": "block/food/pie/fill-mushroomred",
+        "partType": "Filling"
+      },
+      "*-bitterbolete-*": {
+        "texture": "block/food/pie/fill-mushroomorange",
+        "partType": "Filling"
+      },
+      "*-blacktrumpet-*": {
+        "texture": "block/food/pie/fill-mushroomblack",
+        "partType": "Filling"
+      },
+      "*-chanterelle-*": {
+        "texture": "block/food/pie/fill-mushroomorange",
+        "partType": "Filling"
+      },
+      "*-deathcap-*": {
+        "texture": "block/food/pie/fill-whitecurrant",
+        "partType": "Filling"
+      },
+      "*-devilstooth-*": {
+        "texture": "block/food/pie/fill-tomato",
+        "partType": "Filling"
+      },
+      "*-devilbolete-*": {
+        "texture": "block/food/pie/fill-tomato",
+        "partType": "Filling"
+      },
+      "*-greencrackedrussula-*": {
+        "texture": "block/food/pie/fill-olive",
+        "partType": "Filling"
+      },
+      "*-indigomilkcap-*": {
+        "texture": "block/food/pie/fill-mushroomblue",
+        "partType": "Filling"
+      },
+      "*-jackolantern-*": {
+        "texture": "block/food/pie/fill-mushroomorange",
+        "partType": "Filling"
+      },
+      "*-orangeoakbolete-*": {
+        "texture": "block/food/pie/fill-mushroomorange",
+        "partType": "Filling"
+      },
+      "*-lobster-*": {
+        "texture": "block/food/pie/fill-mushroomorange",
+        "partType": "Filling"
+      },
+      "*-paddystraw-*": {
+        "texture": "block/food/pie/fill-potato",
+        "partType": "Filling"
+      },
+      "*-puffball-*": {
+        "texture": "block/food/pie/fill-potato",
+        "partType": "Filling"
+      },
+      "*-redwinecap-*": {
+        "texture": "block/food/pie/fill-mushroomred",
+        "partType": "Filling"
+      },
+      "*-violetwebcap-*": {
+        "texture": "block/food/pie/fill-saguaro",
+        "partType": "Filling"
+      },
+      "*-witchhat-*": {
+        "texture": "block/food/pie/fill-cheddar",
+        "partType": "Filling"
+      },
+
+
+
+
+
+      "*-waxcap-*": {
+        "texture": "block/food/pie/fill-strawberry",
+        "partType": "Filling"
+      },
+      "*-utzathudal-*": {
+        "texture": "block/food/pie/fill-mixedmeat",
+        "partType": "Filling"
+      },
+      "*-goldenoaf-*": {
+        "texture": "block/food/pie/fill-aubergine",
+        "partType": "Filling"
+      },
+
+
+
+
+
+      "*": {
+        "texture": "block/food/pie/fill-mushroombrown",
+        "partType": "Filling"
+      }
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+]

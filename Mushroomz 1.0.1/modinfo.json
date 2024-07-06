@@ -1,0 +1,15 @@
+{
+  "type": "code",
+  "modid": "mushroomz",
+  "name": "Mushroomz",
+  "authors": [
+"Jakecool19",
+"SpearAndFang",
+"Zolgrim"
+  ],
+  "description": "Adds mushroom farming and a few new mushrooms as well as flower farming. O.G. Mod was Wild Farming under Jakecool19, which was revived by SpearAndFang,which this was forked off of to be made from, credits to both.",
+  "version": "1.0.1",
+  "dependencies": {
+    "game": ""
+  }
+}

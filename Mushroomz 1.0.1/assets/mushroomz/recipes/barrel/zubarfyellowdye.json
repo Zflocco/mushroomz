@@ -1,0 +1,12 @@
+﻿[
+{
+	enabled: true,
+	code: "zubarf",
+	sealHours: 16,
+	ingredients: [
+	{type: "item",code: "game:waterportion",litres:1,consumelitres:1},
+	{type: "block",code: "game:mushroom-zubarf-normal-north",quantity: 2}
+	],
+	output: {type: "item",code: "game:dye-yellow",litres: 1}
+}
+]

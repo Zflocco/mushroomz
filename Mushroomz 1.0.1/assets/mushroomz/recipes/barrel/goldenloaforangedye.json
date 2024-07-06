@@ -1,0 +1,12 @@
+﻿[
+{
+	enabled: true,
+	code: "goldenloaf",
+	sealHours: 16,
+	ingredients: [
+	{type: "item",code: "game:waterportion",litres:1,consumelitres:1},
+	{type: "block",code: "game:mushroom-goldenloaf-normal",quantity: 2}
+	],
+	output: {type: "item",code: "game:dye-orange",litres: 1}
+}
+]

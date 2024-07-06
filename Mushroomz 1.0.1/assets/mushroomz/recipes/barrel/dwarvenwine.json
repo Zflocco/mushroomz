@@ -1,0 +1,11 @@
+[
+	{
+		code: "dwarfwine",
+		sealHours: 174,
+		ingredients: [
+//			{type: "item",code: "game:waterportion",litres:5,consumelitres:5},
+			{type: "block",code: "game:mushroom-plumphelmet-normal",quantity: 16}
+	],
+		output: { type: "item", code: "dwarfwine", litres: 2.5 }
+	}
+]

@@ -1,0 +1,12 @@
+﻿[
+{
+	enabled: true,
+	code: "dwarvesbeard",
+	sealHours: 128,
+	ingredients: [
+	{type: "item",code: "game:waterportion",litres:3,consumelitres:3},
+	{type: "block",code: "game:mushroom-dwarvesbeard-normal-north",quantity: 1}
+	],
+	output: {type: "item",code: "game:flaxfibers",stackSize: 6}
+}
+]

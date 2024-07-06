@@ -1,0 +1,215 @@
+[
+
+  {
+    "op": "add",
+    "path": "/allowedVariants/12",
+    "value": "mushroom-dwarvesbeard-*",
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+  {
+    "op": "add",
+    "path": "/allowedVariants/13",
+    "value": "mushroom-basiliskfang-*",
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+//  { "op": "add", "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-basiliskfang-*", "value": "-3.5", "file": "game:blocktypes/plant/mushroom-side.json" },  
+  {
+    "op": "add",
+    "path": "/allowedVariants/14",
+    "value": "mushroom-zubarf-*",
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+/////////////////////
+  {
+    "op": "add",
+    "path": "/attributes/mushroomProps/dieWhenTempBelowByType/*-dwarvesbeard-*",
+    "value": -15,
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+{
+    "op": "add",
+    "path": "/attributes/mushroomProps/dieWhenTempBelowByType/*-basiliskfang-*",
+    "value": -10,
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+{
+    "op": "add",
+    "path": "/attributes/mushroomProps/dieWhenTempBelowByType/*-zubarf-*",
+    "value": -25,
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+/////////////////////
+  { "op": "remove", "path": "/attributes/nutritionPropsWhenInMeal/satiety", "file": "game:blocktypes/plant/mushroom-side.json" },
+  
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal/satietyByType",
+    "value": {
+	"*-zubarf-*": 60,
+	"*-basiliskfang-*": 40,
+	  "*": 125
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+////////////////////
+  { "op": "remove", "path": "/attributes/nutritionPropsWhenInMeal/foodcategory", "file": "game:blocktypes/plant/mushroom-side.json" },
+  
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal/foodcategoryByType",
+    "value": {
+	"*-basiliskfang-*": "Dairy",
+	"*": "Vegetable",
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+////////////////////
+  {   "op": "remove", "path": "/nutritionPropsByType/*", "file": "game:blocktypes/plant/mushroom-side.json" },
+
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-funeralbell-*",
+    "value": {
+      "saturation": 80,
+      "health": -40,
+      "foodcategory": "Vegetable"
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-pinkbonnet-*",
+    "value": {
+      "saturation": 80,
+      "health": -10,
+      "foodcategory": "Vegetable"
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+  
+  
+  
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-basiliskfang-*",
+    "value": {
+      "saturation": 20,
+      "health": -15,
+      "foodcategory": "Dairy"
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },  
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-zubarf-*",
+    "value": {
+      "saturation": 30,
+      "health": 0,
+      "foodcategory": "Vegetable",
+	  "intoxication": 0.3
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  }, 
+  
+  
+  
+  
+  
+  
+  
+  
+    {
+    "op": "add",
+    "path": "/nutritionPropsByType/*",
+    "value": {
+      "saturation": 80,
+      "health": 0,
+      "foodcategory": "Vegetable"
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+////////////////////
+  {
+    "op": "add",
+    "path": "/attributes/inContainerTexture",
+    "value": {
+      "base": "block/food/pie/fill-mushroombrown"
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "*-beardedtooth-*": {
+        "texture": "block/food/pie/fill-potato",
+        "partType": "Filling"
+      },
+      "*-chickenofthewoods-*": {
+        "texture": "block/food/pie/fill-peach",
+        "partType": "Filling"
+      },
+      "*-pinkoyster-*": {
+        "texture": "block/food/pie/fill-breadfruit",
+        "partType": "Filling"
+      },
+      "*-tinderhoof-*": {
+        "texture": "block/food/pie/fill-gooseberry",
+        "partType": "Filling"
+      },
+      "*-whiteoyster-*": {
+        "texture": "block/food/pie/fill-lychee",
+        "partType": "Filling"
+      },
+      "*-funeralbell-*": {
+        "texture": "block/food/pie/fill-mushroomorange",
+        "partType": "Filling"
+      },
+      "*-deerear-*": {
+        "texture": "block/food/pie/fill-mushroomorange",
+        "partType": "Filling"
+      },
+      "*-livermushroom-*": {
+        "texture": "block/food/pie/fill-potato",
+        "partType": "Filling"
+      },
+      "*-pinkbonnet-*": {
+        "texture": "block/food/pie/fill-pomegranate",
+        "partType": "Filling"
+      },
+      "*-dwarvesbeard-*": {
+        "texture": "block/food/pie/fill-carrot",
+        "partType": "Filling"
+      },
+	  
+	  
+	  
+      "*-basiliskfang-*": {
+        "texture": "block/food/pie/fill-lychee",
+        "partType": "Filling"
+      },	  
+      "*-zubarf-*": {
+        "texture": "block/food/pie/fill-pear",
+        "partType": "Filling"
+      },
+	  
+	  
+      "*": {
+        "texture": "block/food/pie/fill-mushroombrown",
+        "partType": "Filling"
+      }
+    },
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  },
+/////////////////////
+  {
+    "op": "add",
+    "path": "/creativeinventory/mushroomz",
+    "value": [
+      "*-dwarvesbeard-normal-north",
+	  "*-basiliskfang-normal-north",
+	  "*-zubarf-normal-north"
+	],
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  }, 
+]

@@ -1,0 +1,434 @@
+{
+		"game:tabname-mushroomz": "Mushroomz",
+  
+"game:mushroomz-handbook-title": "Mushroomz Handbook",
+"game:mushroomz-handbook-text":"
+<font size=24 align=middle><strong>The Mushroomz handbook</strong></font><br>
+
+This mod is a fork of , 'Wild Farming - Revival' all respective credits go to JakeCool19, SpearAndFang; this specific version of Mushroomz is for 1.18.15, this may or may not work on 1.19.
+
+Mushroomz adds four (possibly more in the future) mushrooms as well as the ability to farm them, as well as adding flower farming.
+Part of the idea for the mod was to enable and encourage (Dwarfy) mushroom farming from within mountains, caves or otherwise even during winter.
+This mod also enables mushrooms to be baked into pies.
+
+To start off farming mushrooms you're going to need to make some <a href=\"handbooksearch://substrate\">substrate</a>, after that you'll need any kind of mushroom and use it on the substrate.
+If you planted a ground growing mushroom, make sure that you have soil blocks within a 7 block radius of the substrate as mushrooms won't grow on stone!
+If you planted a tree growing mushroom, you're going to have to place logs on top of the substrate for the mushrooms to grow off of, make sure that you use the correct log type!
+
+<strong>Mushrooms : </strong>
+Ground Growing :
+
+Vanilla Mushrooms : Die at 0c.
+Pig Tails : These peculiar mushrooms are nigh inedible, but can be turned into a usable fabric due to it's fibrous nature. Dies around -20c.
+Plump Helmets : These purple mushrooms are a favorite of the Dwarves, they can be brewed into an alcoholic beverage in a barrel. They die around -30c.
+Dimple Cups : These incredibly hardy mushrooms are also known as 'Frost caps' , they aren't particularly good tasting or filling but can thrive even in absolutely frigid conditions, they can also be used to make a blue dye. Dies at -50c.
+Waxcap : These small red mushrooms are rather unpleasant to eat but are completely fine to do so, much to their name they can be processed for their waxy property and used.
+Ut-Zathudal : This particular mushroom is akin to a truffle or an earthball, they prefer to grow underground or partially buried in their preferred substrate, many say they taste like old jerky. They die around -20c.
+Golden Loaf : The Golden Loaf is a rather sought after mushroom, it's rather unusual in the fact that it's starchy and can be used for various products such as a Dwarven flatbread and Ale. Dies at -12.
+
+
+
+<strong>Side Growing : </strong>
+
+Vanilla Mushrooms:  Die at 0c.
+Tinder Hoof : (Vanilla) Don't die at any temp.
+Dwarves' Beard : These hairy mushrooms love to grow on conifer trees, they can be put into a barrel to be turned into fibres for cloth. They die around -15c.
+Basilisk Fang : This poisonous and rare mushroom spreads it's spores by a unique mechanism, the 'fang' of the mushroom drips a sticky calcium rich poison that's laden with spores, on contact with a small animal such as a squirrel or rabbit they'll die within a few hours and the spores will take root. They die around -10c.
+Zubarf : This little yellow mushroom has psychotropic properties to it, it's taste is often said to be that of a sour onion. They die around -25.
+
+
+
+
+
+
+
+Known Bugs : 
+Mushrooms disappearing after growing, this is due to temperature usually.
+
+
+",
+
+//<a href=\"https://mods.vintagestory.at/wildfarmingrevival">Wild Farming Revival</a>
+
+
+  "game:blockdesc-mushroom-dwarvesbeard-*": "Dwarves' Beard, a mushroom that grows fine strands of hair that can be weaved into Dwarvish silk. (Dies at -15c)",
+// found on conifers
+  "game:blockdesc-mushroom-pigtail-*": "Pig Tails are a strange mushroom, nigh inedible due to poor palatability and it's fibrous nature. These mushrooms must be left in a barrel to loosen the fibres to be used. (Dies at -20c)",
+// under any trees
+  "game:blockdesc-mushroom-dimplecup-*": "Dimple Cups, also known as 'Frost Caps', these hardy mushrooms aren't very filling nor taste particularly good, but can be used for a blue dye. (Dies at -50c)",
+// under any trees
+  "game:blockdesc-mushroom-plumphelmet-*": "Plump Helmets, a Dwarven mushroom said to be distantly related to witch hat mushrooms. These mushrooms while not particularly filling are a staple and extremely easy to farm, they can also be brewed into Dwarven wine. (Dies at -30c)",
+// Found under Deciduous trees
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "item-wildseeds-flower-catmint-free": "Catmint Seeds",
+  "item-wildseeds-flower-forgetmenot-free": "Forget me not Seeds",
+  "item-wildseeds-flower-edelweiss-free": "Edelweiss Seeds",
+  "item-wildseeds-flower-horsetail-free": "Horsetail Seeds",
+  "item-wildseeds-flower-heather-free": "Heather Seeds",
+  "item-wildseeds-flower-wilddaisy-free": "Wild Daisy Seeds",
+  "item-wildseeds-flower-orangemallow-free": "Orange Mallow Seeds",
+  "item-wildseeds-flower-westerngorse-free": "Dwarf Furze Seeds",
+  "item-wildseeds-flower-californiapoppy-free": "Golden Poppy Seeds",
+  "item-wildseeds-flower-cowparsley-free": "Cow Parsley Seeds",
+  "item-wildseeds-flower-lilyofthevalley-free": "Lily of the Valley Seeds",
+  "item-wildseeds-flower-cornflower-free": "Cornflower Seeds",
+  "item-wildseeds-flower-woad-free": "Woad Seeds",
+
+  "item-wildseeds-flower-lupine-blue-free": "Blue Lupine Seeds",
+  "item-wildseeds-flower-lupine-orange-free": "Orange Lupine Seeds",
+  "item-wildseeds-flower-lupine-purple-free": "Purple Lupine Seeds",
+  "item-wildseeds-flower-lupine-red-free": "Red Lupine Seeds",
+  "item-wildseeds-flower-lupine-white-free": "White Lupine Seeds",
+
+  "itemdesc-wildseeds-*": "Plant these in soil to grow.",
+
+  "block-wildplant-*": "Growing Wild Plant!",
+  "block-wildplant-herb-basil": "Growing Basil",
+  "block-wildplant-herb-chamomile": "Growing Chamomile",
+  "block-wildplant-herb-cilantro": "Ciltrano",
+  "block-wildplant-herb-lavender": "Growing Lavender",
+  "block-wildplant-herb-marjoram": "Growing Marjoram",
+  "block-wildplant-herb-mint": "Growing Mint",
+  "block-wildplant-herb-saffron": "Growing Saffron",
+  "block-wildplant-herb-sage": "Growing Sage",
+  "block-wildplant-herb-thyme": "Growing Thyme",
+
+  "block-wildplant-flower-catmint-free": "Growing Catmint",
+  "block-wildplant-flower-forgetmenot-free": "Growing Forget me not",
+  "block-wildplant-flower-edelweiss-free": "Growing Edelweiss",
+  "block-wildplant-flower-horsetail-free": "Growing Horsetail",
+  "block-wildplant-flower-heather-free": "Growing Heather",
+  "block-wildplant-flower-wilddaisy-free": "Growing Wild Daisy",
+  "block-wildplant-flower-orangemallow-free": "Growing Orange Mallow",
+  "block-wildplant-flower-westerngorse-free": "Growing Dwarf Furze",
+  "block-wildplant-flower-californiapoppy-free": "Growing Golden Poppy",
+  "block-wildplant-flower-cowparsley-free": "Growing Cow Parsley",
+  "block-wildplant-flower-lilyofthevalley-free": "Growing Lily of the Valley",
+
+  "item-wildseeds-flower-rafflesia-brown": "Brown Rafflesia Seeds",
+  "item-wildseeds-flower-rafflesia-red": "Red Rafflesia Seeds",
+  
+  "block-wildplant-flower-rafflesia-brown": "Growing Brown Rafflesia",
+  "block-wildplant-flower-rafflesia-red": "Growing Red Rafflesia",
+
+  "item-wildseeds-flower-croton-small-crimson-green": "Small croton (Crimson green) Seeds",
+  "item-wildseeds-flower-croton-small-crimson-brown-green": "Small croton (Brown green) Seeds",
+  "item-wildseeds-flower-croton-small-crimson-orange": "Small croton (Crimson orange) Seeds",
+  "item-wildseeds-flower-croton-small-darkgreen-gold": "Small croton (Darkgreen gold) Seeds",
+  "item-wildseeds-flower-croton-small-darkgreen-gold-crimson": "Small croton (Darkgreen gold-crimson) Seeds",
+  "item-wildseeds-flower-croton-small-green-orange": "Small croton (Green orange) Seeds",
+  "item-wildseeds-flower-croton-small-lemongreen": "Small croton (Lemongreen) Seeds",
+  "item-wildseeds-flower-croton-small-lemongreen-crimson": "Small croton (Lemongreen crimson) Seeds",
+
+  "item-wildseeds-flower-croton-medium-crimson-green": "Medium croton (Crimson Green) Seeds",
+  "item-wildseeds-flower-croton-medium-crimson-brown-green": "Medium croton (Crimson Brown-green) Seeds",
+  "item-wildseeds-flower-croton-medium-crimson-orange": "Medium croton (Crimson orange) Seeds",
+  "item-wildseeds-flower-croton-medium-darkgreen-gold": "Medium croton (Darkgreen gold) Seeds",
+  "item-wildseeds-flower-croton-medium-darkgreen-gold-crimson": "Medium croton (Darkgreen gold-crimson) Seeds",
+  "item-wildseeds-flower-croton-medium-green-orange": "Medium croton (Green orange) Seeds",
+  "item-wildseeds-flower-croton-medium-lemongreen": "Medium croton (Lemongreen) Seeds",
+  "item-wildseeds-flower-croton-medium-lemongreen-crimson": "Medium croton (Lemongreen crimson) Seeds",
+
+
+
+
+
+
+
+
+
+
+  "block-mushroomsubstrate": "Mushroom Substrate",
+
+  "msubstrate-barren": "Add a mushroom to this block to begin incubating it.",
+  "msubstrate-incubating": "Growing {0}",
+  "msubstrate-growing": "Days left until mushrooms appear {0}",
+  "msubstrate-fruiting": "Days left until mushrooms disappear {0}",
+  "mushroom-tropical": "Grows with/on Tropical trees",
+  "mushroom-conifer": "Grows with/on Conifer trees",
+  "mushroom-decidious": "Grows with/on Deciduous trees",
+
+  "block-wildplant-flower-woad-free": "Growing Woad",
+  "item-wildseeds-flower-goldenpoppy-free": "Golden poppy Seeds",
+  "item-wildseeds-flower-redtopgrass-free": "Redtop grass Seeds",
+  "block-wildplant-flower-goldenpoppy-free": "Growing Golden poppy",
+  "block-wildplant-flower-redtopgrass-free": "Growing Redtop grass",
+  "block-wildplant-flower-cornflower-free": "Growing Cornflower",
+  
+  
+  
+  
+  
+  
+    
+  
+
+  
+  
+  "game:block-mushroom-plumphelmet-*": "Plump Helmet",
+  "game:block-mushroom-dimplecup-*": "Dimple Cup",
+  "game:block-mushroom-pigtail-*": "Pig Tail",
+
+  "game:block-mushroom-waxcap-*": "Waxcap",
+  "game:block-mushroom-utzathudal-*": "Ut-Zathudal",
+  "game:block-mushroom-goldenloaf-*": "Golden Loaf",
+
+
+
+  "game:block-mushroom-dwarvesbeard-*": "Dwarves' Beard",
+
+  "game:block-mushroom-basiliskfang-*": "Basilisk Fang",
+  "game:block-mushroom-zubarf-*": "Zubarf",
+
+
+
+
+
+
+  "item-dwarfwine": "Dwarf wine",  
+  "itemdesc-dwarfwine": "A wine made plump helmets, extremely popular amongst dwarves due to it's longevity, strength, and taste, it can also be aged into a more refined product.",  
+  "incontainer-item-dwarfwine": "Dwarvish wine",
+  
+  "item-dwarfale": "Dwarf Ale",  
+  "itemdesc-dwarfale": "An ale that's got a rather short shelf-life made from golden loaf mushrooms, not that it ever lasts long enough to spoil.",  
+  "incontainer-item-dwarfale": "Dwarvish Ale",
+  
+  "item-nitre": "Nitre",  
+  "incontainer-item-nitre": "Nitre",
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	"game:pie-single-mushroom-almondmushroom-normal-raw": "Almond mushroom pie (raw)",
+    "game:pie-single-mushroom-almondmushroom-normal-partbaked": "Almond mushroom pie (part-baked)",
+    "game:pie-single-mushroom-almondmushroom-normal-perfect": "Almond mushroom pie",
+    "game:pie-single-mushroom-almondmushroom-normal-charred": "Almond mushroom pie (charred)",
+    "game:pie-single-mushroom-beardedtooth-normal-north-raw": "Bearded tooth pie (raw)",
+    "game:pie-single-mushroom-beardedtooth-normal-north-partbaked": "Bearded tooth pie (part-baked)",
+    "game:pie-single-mushroom-beardedtooth-normal-north-perfect": "Bearded tooth pie",
+    "game:pie-single-mushroom-beardedtooth-normal-north-charred": "Bearded tooth pie (charred)",
+    "game:pie-single-mushroom-bitterbolete-normal-raw": "Bitter bolete pie (raw)",
+    "game:pie-single-mushroom-bitterbolete-normal-partbaked": "Bitter bolete pie (part-baked)",
+    "game:pie-single-mushroom-bitterbolete-normal-perfect": "Bitter bolete pie",
+    "game:pie-single-mushroom-bitterbolete-normal-charred": "Bitter bolete pie (charred)",
+    "game:pie-single-mushroom-blacktrumpet-normal-raw": "Black trumpet pie (raw)",
+    "game:pie-single-mushroom-blacktrumpet-normal-partbaked": "Black trumpet pie (part-baked)",
+    "game:pie-single-mushroom-blacktrumpet-normal-perfect": "Black trumpet pie",
+    "game:pie-single-mushroom-blacktrumpet-normal-charred": "Black trumpet pie (charred)",
+    "game:pie-single-mushroom-chanterelle-normal-raw": "Chanterelle pie (raw)",
+    "game:pie-single-mushroom-chanterelle-normal-partbaked": "Chanterelle pie (part-baked)",
+    "game:pie-single-mushroom-chanterelle-normal-perfect": "Chanterelle pie",
+    "game:pie-single-mushroom-chanterelle-normal-charred": "Chanterelle pie (charred)",
+    "game:pie-single-mushroom-chickenofthewoods-normal-north-raw": "Chicken of the woods pie (raw)",
+    "game:pie-single-mushroom-chickenofthewoods-normal-north-partbaked": "Chicken of the woods pie (part-baked)",
+    "game:pie-single-mushroom-chickenofthewoods-normal-north-perfect": "Chicken of the woods pie",
+    "game:pie-single-mushroom-chickenofthewoods-normal-north-charred": "Chicken of the woods pie (charred)",
+    "game:pie-single-mushroom-commonmorel-normal-raw": "Common morel pie (raw)",
+    "game:pie-single-mushroom-commonmorel-normal-partbaked": "Common morel pie (part-baked)",
+    "game:pie-single-mushroom-commonmorel-normal-perfect": "Common morel pie",
+    "game:pie-single-mushroom-commonmorel-normal-charred": "Common morel pie (charred)",
+    "game:pie-single-mushroom-deathcap-normal-raw": "Death cap pie (raw)",
+    "game:pie-single-mushroom-deathcap-normal-partbaked": "Death cap pie (part-baked)",
+    "game:pie-single-mushroom-deathcap-normal-perfect": "Death cap pie",
+    "game:pie-single-mushroom-deathcap-normal-charred": "Death cap pie (charred)",
+    "game:pie-single-mushroom-deerear-normal-north-raw": "Deerear pie (raw)",
+    "game:pie-single-mushroom-deerear-normal-north-partbaked": "Deerear pie (part-baked)",
+    "game:pie-single-mushroom-deerear-normal-north-perfect": "Deerear pie",
+    "game:pie-single-mushroom-deerear-normal-north-charred": "Deerear pie (charred)",
+    "game:pie-single-mushroom-devilbolete-normal-raw": "Devil bolete pie (raw)",
+    "game:pie-single-mushroom-devilbolete-normal-partbaked": "Devil bolete pie (part-baked)",
+    "game:pie-single-mushroom-devilbolete-normal-perfect": "Devil bolete pie",
+    "game:pie-single-mushroom-devilbolete-normal-charred": "Devil bolete pie (charred)",
+    "game:pie-single-mushroom-devilstooth-normal-raw": "Devilstooth pie (raw)",
+    "game:pie-single-mushroom-devilstooth-normal-partbaked": "Devilstooth pie (part-baked)",
+    "game:pie-single-mushroom-devilstooth-normal-perfect": "Devilstooth pie",
+    "game:pie-single-mushroom-devilstooth-normal-charred": "Devilstooth pie (charred)",
+    "game:pie-single-mushroom-dryadsaddle-normal-north-raw": "Dryad saddle pie (raw)",
+    "game:pie-single-mushroom-dryadsaddle-normal-north-partbaked": "Dryad saddle pie (part-baked)",
+    "game:pie-single-mushroom-dryadsaddle-normal-north-perfect": "Dryad saddle pie",
+    "game:pie-single-mushroom-dryadsaddle-normal-north-charred": "Dryad saddle pie (charred)",
+    "game:pie-single-mushroom-earthball-normal-raw": "Earth ball pie (raw)",
+    "game:pie-single-mushroom-earthball-normal-partbaked": "Earth ball pie (part-baked)",
+    "game:pie-single-mushroom-earthball-normal-perfect": "Earth ball pie",
+    "game:pie-single-mushroom-earthball-normal-charred": "Earth ball pie (charred)",
+    "game:pie-single-mushroom-elfinsaddle-normal-raw": "Elfin saddle pie (raw)",
+    "game:pie-single-mushroom-elfinsaddle-normal-partbaked": "Elfin saddle pie (part-baked)",
+    "game:pie-single-mushroom-elfinsaddle-normal-perfect": "Elfin saddle pie",
+    "game:pie-single-mushroom-elfinsaddle-normal-charred": "Elfin saddle pie (charred)",
+    "game:pie-single-mushroom-fieldmushroom-normal-raw": "Field mushroom pie (raw)",
+    "game:pie-single-mushroom-fieldmushroom-normal-partbaked": "Field mushroom pie (part-baked)",
+    "game:pie-single-mushroom-fieldmushroom-normal-perfect": "Field mushroom pie",
+    "game:pie-single-mushroom-fieldmushroom-normal-charred": "Field mushroom pie (charred)",
+    "game:pie-single-mushroom-flyagaric-normal-raw": "Fly agaric pie (raw)",
+    "game:pie-single-mushroom-flyagaric-normal-partbaked": "Fly agaric pie (part-baked)",
+    "game:pie-single-mushroom-flyagaric-normal-perfect": "Fly agaric pie",
+    "game:pie-single-mushroom-flyagaric-normal-charred": "Fly agaric pie (charred)",
+    "game:pie-single-mushroom-funeralbell-normal-north-raw": "Funeralbell pie (raw)",
+    "game:pie-single-mushroom-funeralbell-normal-north-partbaked": "Funeralbell pie (part-baked)",
+    "game:pie-single-mushroom-funeralbell-normal-north-perfect": "Funeralbell pie",
+    "game:pie-single-mushroom-funeralbell-normal-north-charred": "Funeralbell pie (charred)",
+    "game:pie-single-mushroom-golddropmilkcap-normal-raw": "Gold-drop milkcap pie (raw)",
+    "game:pie-single-mushroom-golddropmilkcap-normal-partbaked": "Gold-drop milkcap pie (part-baked)",
+    "game:pie-single-mushroom-golddropmilkcap-normal-perfect": "Gold-drop milkcap pie",
+    "game:pie-single-mushroom-golddropmilkcap-normal-charred": "Gold-drop milkcap pie (charred)",
+    "game:pie-single-mushroom-greencrackedrussula-normal-raw": "Green cracked russula pie (raw)",
+    "game:pie-single-mushroom-greencrackedrussula-normal-partbaked": "Green cracked russula pie (part-baked)",
+    "game:pie-single-mushroom-greencrackedrussula-normal-perfect": "Green cracked russula pie",
+    "game:pie-single-mushroom-greencrackedrussula-normal-charred": "Green cracked russula pie (charred)",
+    "game:pie-single-mushroom-indigomilkcap-normal-raw": "Indigo milkcap pie (raw)",
+    "game:pie-single-mushroom-indigomilkcap-normal-partbaked": "Indigo milkcap pie (part-baked)",
+    "game:pie-single-mushroom-indigomilkcap-normal-perfect": "Indigo milkcap pie",
+    "game:pie-single-mushroom-indigomilkcap-normal-charred": "Indigo milkcap pie (charred)",
+    "game:pie-single-mushroom-jackolantern-normal-raw": "Jack'o'lantern pie (raw)",
+    "game:pie-single-mushroom-jackolantern-normal-partbaked": "Jack'o'lantern pie (part-baked)",
+    "game:pie-single-mushroom-jackolantern-normal-perfect": "Jack'o'lantern pie",
+    "game:pie-single-mushroom-jackolantern-normal-charred": "Jack'o'lantern pie (charred)",
+    "game:pie-single-mushroom-kingbolete-normal-raw": "King bolete pie (raw)",
+    "game:pie-single-mushroom-kingbolete-normal-partbaked": "King bolete pie (part-baked)",
+    "game:pie-single-mushroom-kingbolete-normal-perfect": "King bolete pie",
+    "game:pie-single-mushroom-kingbolete-normal-charred": "King bolete pie (charred)",
+	"game:pie-single-mushroom-livermushroom-normal-north-raw": "Livermushroom pie (raw)",
+    "game:pie-single-mushroom-livermushroom-normal-north-partbaked": "Livermushroom pie (part-baked)",
+    "game:pie-single-mushroom-livermushroom-normal-north-perfect": "Livermushroom pie",
+    "game:pie-single-mushroom-livermushroom-normal-north-charred": "Livermushroom pie (charred)",
+    "game:pie-single-mushroom-lobster-normal-raw": "Lobster pie (raw)",
+    "game:pie-single-mushroom-lobster-normal-partbaked": "Lobster pie (part-baked)",
+    "game:pie-single-mushroom-lobster-normal-perfect": "Lobster pie",
+    "game:pie-single-mushroom-lobster-normal-charred": "Lobster pie (charred)",
+    "game:pie-single-mushroom-orangeoakbolete-normal-raw": "Orange oak bolete pie (raw)",
+    "game:pie-single-mushroom-orangeoakbolete-normal-partbaked": "Orange oak bolete pie (part-baked)",
+    "game:pie-single-mushroom-orangeoakbolete-normal-perfect": "Orange oak bolete pie",
+    "game:pie-single-mushroom-orangeoakbolete-normal-charred": "Orange oak bolete pie (charred)",
+    "game:pie-single-mushroom-paddystraw-normal-raw": "Paddy straw pie (raw)",
+    "game:pie-single-mushroom-paddystraw-normal-partbaked": "Paddy straw pie (part-baked)",
+    "game:pie-single-mushroom-paddystraw-normal-perfect": "Paddy straw pie",
+    "game:pie-single-mushroom-paddystraw-normal-charred": "Paddy straw pie (charred)",
+    "game:pie-single-mushroom-pinkbonnet-normal-north-raw": "Pinkbonnet pie (raw)",
+    "game:pie-single-mushroom-pinkbonnet-normal-north-north-partbaked": "Pinkbonnet pie (part-baked)",
+    "game:pie-single-mushroom-pinkbonnet-normal-north-perfect": "Pinkbonnet pie",
+    "game:pie-single-mushroom-pinkbonnet-normal-north-charred": "Pinkbonnet pie (charred)",
+    "game:pie-single-mushroom-pinkoyster-normal-north-raw": "Pink oyster pie (raw)",
+    "game:pie-single-mushroom-pinkoyster-normal-north-partbaked": "Pink oyster pie (part-baked)",
+    "game:pie-single-mushroom-pinkoyster-normal-north-perfect": "Pink oyster pie",
+    "game:pie-single-mushroom-pinkoyster-normal-north-charred": "Pink oyster pie (charred)",
+    "game:pie-single-mushroom-puffball-normal-raw": "Puffball pie (raw)",
+    "game:pie-single-mushroom-puffball-normal-partbaked": "Puffball pie (part-baked)",
+    "game:pie-single-mushroom-puffball-normal-perfect": "Puffball pie",
+    "game:pie-single-mushroom-puffball-normal-charred": "Puffball pie (charred)",
+    "game:pie-single-mushroom-redwinecap-normal-raw": "Red wine cap pie (raw)",
+    "game:pie-single-mushroom-redwinecap-normal-partbaked": "Red wine cap pie (part-baked)",
+    "game:pie-single-mushroom-redwinecap-normal-perfect": "Red wine cap pie",
+    "game:pie-single-mushroom-redwinecap-normal-charred": "Red wine cap pie (charred)",
+    "game:pie-single-mushroom-reishi-normal-north-raw": "Reishi pie (raw)",
+    "game:pie-single-mushroom-reishi-normal-north-partbaked": "Reishi pie (part-baked)",
+    "game:pie-single-mushroom-reishi-normal-north-perfect": "Reishi pie",
+    "game:pie-single-mushroom-reishi-normal-north-charred": "Reishi pie (charred)",
+    "game:pie-single-mushroom-saffronmilkcap-normal-raw": "Saffron milkcap pie (raw)",
+    "game:pie-single-mushroom-saffronmilkcap-normal-partbaked": "Saffron milkcap pie (part-baked)",
+    "game:pie-single-mushroom-saffronmilkcap-normal-perfect": "Saffron milkcap pie",
+    "game:pie-single-mushroom-saffronmilkcap-normal-charred": "Saffron milkcap pie (charred)",
+    "game:pie-single-mushroom-shiitake-normal-north-raw": "Shiitake pie (raw)",
+    "game:pie-single-mushroom-shiitake-normal-north-partbaked": "Shiitake pie (part-baked)",
+    "game:pie-single-mushroom-shiitake-normal-north-perfect": "Shiitake pie",
+    "game:pie-single-mushroom-shiitake-normal-north-charred": "Shiitake pie (charred)",
+    "game:pie-single-mushroom-tinderhoof-normal-north-raw": "Tinderhoof pie (raw)",
+    "game:pie-single-mushroom-tinderhoof-normal-north-partbaked": "Tinderhoof pie (part-baked)",
+    "game:pie-single-mushroom-tinderhoof-normal-north-perfect": "Tinderhoof pie",
+    "game:pie-single-mushroom-tinderhoof-normal-north-charred": "Tinderhoof pie (charred)",
+    "game:pie-single-mushroom-violetwebcap-normal-raw": "Violet web cap pie (raw)",
+    "game:pie-single-mushroom-violetwebcap-normal-partbaked": "Violet web cap pie (part-baked)",
+    "game:pie-single-mushroom-violetwebcap-normal-perfect": "Violet web cap pie",
+    "game:pie-single-mushroom-violetwebcap-normal-charred": "Violet web cap pie (charred)",
+    "game:pie-single-mushroom-whiteoyster-normal-north-raw": "White oyster pie (raw)",
+    "game:pie-single-mushroom-whiteoyster-normal-north-partbaked": "White oyster pie (part-baked)",
+    "game:pie-single-mushroom-whiteoyster-normal-north-perfect": "White oyster pie",
+    "game:pie-single-mushroom-whiteoyster-normal-north-charred": "White oyster pie (charred)",
+    "game:pie-single-mushroom-witchhat-normal-raw": "Witchhat pie (raw)",
+    "game:pie-single-mushroom-witchhat-normal-partbaked": "Witchhat pie (part-baked)",
+    "game:pie-single-mushroom-witchhat-normal-perfect": "Witchhat pie",
+    "game:pie-single-mushroom-witchhat-normal-charred": "Witchhat pie (charred)",
+  
+	"game:pie-single-mushroom-dwarvesbeard-normal-north-raw": "Dwarves' Beard pie (raw)",
+    "game:pie-single-mushroom-dwarvesbeard-normal-north-partbaked": "Dwarves' Beard pie (part-baked)",
+    "game:pie-single-mushroom-dwarvesbeard-normal-north-perfect": "Dwarves' Beard pie",
+    "game:pie-single-mushroom-dwarvesbeard-normal-north-charred": "Dwarves' Beard pie (charred)",
+	"game:pie-single-mushroom-plumphelmet-normal-raw": "Plump Helmet pie (raw)",
+    "game:pie-single-mushroom-plumphelmet-normal-partbaked": "Plump Helmet pie (part-baked)",
+    "game:pie-single-mushroom-plumphelmet-normal-perfect": "Plump Helmet pie",
+    "game:pie-single-mushroom-plumphelmet-normal-charred": "Plump Helmet pie (charred)",
+	"game:pie-single-mushroom-dimplecup-normal-raw": "Dimple Cup pie (raw)",
+    "game:pie-single-mushroom-dimplecup-normal-partbaked": "Dimple Cup pie (part-baked)",
+    "game:pie-single-mushroom-dimplecup-normal-perfect": "Dimple Cup pie",
+    "game:pie-single-mushroom-dimplecup-normal-charred": "Dimple Cup pie (charred)",
+	"game:pie-single-mushroom-pigtail-normal-raw": "Pigtail pie (raw)",
+    "game:pie-single-mushroom-pigtail-normal-partbaked": "Pigtail pie (part-baked)",
+    "game:pie-single-mushroom-pigtail-normal-perfect": "Pigtail pie",
+    "game:pie-single-mushroom-pigtail-normal-charred": "Pigtail pie (charred)",
+  
+  
+  
+    "game:pie-single-mushroom-waxcap-normal-partbaked": "Waxcap pie (part-baked)",
+    "game:pie-single-mushroom-waxcap-normal-perfect": "Waxcap pie",
+    "game:pie-single-mushroom-waxcap-normal-charred": "Waxcap pie (charred)",
+    "game:pie-single-mushroom-utzathudal-normal-partbaked": "Ut-Zathudal pie (part-baked)",
+    "game:pie-single-mushroom-utzathudal-normal-perfect": "Ut-Zathudal pie",
+    "game:pie-single-mushroom-utzathudal-normal-charred": "Ut-Zathudal pie (charred)",  
+    "game:pie-single-mushroom-goldenloaf-normal-partbaked": "Golden Loaf pie (part-baked)",
+    "game:pie-single-mushroom-goldenloaf-normal-perfect": "Golden Loaf pie",
+    "game:pie-single-mushroom-goldenloaf-normal-charred": "Golden Loaf pie (charred)",  
+    "game:pie-single-mushroom-basiliskfang-normal-partbaked": "Basilisk Fang pie (part-baked)",
+    "game:pie-single-mushroom-basiliskfang-normal-perfect": "Basilisk Fang pie",
+    "game:pie-single-mushroom-basiliskfang-normal-charred": "Basilisk Fang pie (charred)",  
+    "game:pie-single-mushroom-zubarf-normal-partbaked": "Zubarf pie (part-baked)",
+    "game:pie-single-mushroom-zubarf-normal-perfect": "Zubarf pie",
+    "game:pie-single-mushroom-zubarf-normal-charred": "Zubarf pie (charred)",  
+  
+  "item-poundedloaf": "Pounded Loaf",
+  "item-flatbread-perfect": "Flatbread",
+  "item-flatbread-partbaked": "Part-Baked Flatbread",
+  "item-flatbread-charred": "Charred Flatbread",
+  
+  
+  
+  
+  
+}

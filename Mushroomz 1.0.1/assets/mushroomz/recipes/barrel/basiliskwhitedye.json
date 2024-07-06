@@ -1,0 +1,12 @@
+﻿[
+{
+	enabled: true,
+	code: "basiliskfang",
+	sealHours: 16,
+	ingredients: [
+	{type: "item",code: "game:waterportion",litres:1,consumelitres:1},
+	{type: "block",code: "game:mushroom-basiliskfang-normal-north",quantity: 3}
+	],
+	output: {type: "item",code: "game:dye-white",litres: 1}
+}
+]

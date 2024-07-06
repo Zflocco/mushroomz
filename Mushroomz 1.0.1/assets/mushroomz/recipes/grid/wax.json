@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "WWW",
+    "ingredients": {
+//      "S": { "type": "item", "code": "game:stick", "isTool": true },
+//	  "P": { "type": "block", "code": "game:bowl-fired", "isTool": true },
+      "W": { "type": "block", "code": "game:mushroom-waxcap-normal", "quantity": 1}
+    },
+    "name": "Waxcap",
+    "width": 3,
+    "height": 1,
+    "output": { "type": "item", "code": "game:beeswax", "quantity": 1 }
+  }
+]

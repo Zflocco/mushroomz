@@ -1,0 +1,62 @@
+[
+  {
+    "ingredientPattern": "GLG,SLS,HWH",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "L": {
+        "type": "block",
+        "code": "game:log-*"
+      },
+      "S": { "type": "block", "code": "game:soil-compost-none", "quantity": 2 },
+      "G": { "type": "item", "code": "game:grain-*", "quantity": 5 },
+      "H": { "type": "item", "code": "game:drygrass", "quantity": 8 }
+    },
+    "width": 3,
+    "height": 3,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:alcoholportion" },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "mushroomsubstrate"
+    }
+  },
+  
+  
+  
+  
+{
+    "ingredientPattern": "GLG,SLS,HWH",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "L": { "type": "block", "code": "game:log-*" },
+      "S": { "type": "block", "code": "game:soil-high-none" },
+      "G": { "type": "item", "code": "game:grain-*", "quantity": 5 },
+      "H": { "type": "item", "code": "game:drygrass", "quantity": 8 }
+    },
+    "width": 3,
+    "height": 3,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": { "type": "item", "code": "game:alcoholportion" },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "block",
+      "code": "mushroomsubstrate"
+    }
+  },
+  
+  
+ 
+]

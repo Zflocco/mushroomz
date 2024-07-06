@@ -1,0 +1,12 @@
+﻿[
+{
+	enabled: true,
+	code: "dimplecap",
+	sealHours: 16,
+	ingredients: [
+	{type: "item",code: "game:waterportion",litres:1,consumelitres:1},
+	{type: "block",code: "game:mushroom-dimplecup-normal",quantity: 1}
+	],
+	output: {type: "item",code: "game:dye-blue",litres: 1}
+}
+]

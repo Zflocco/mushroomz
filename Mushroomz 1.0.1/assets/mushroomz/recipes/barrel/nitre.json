@@ -1,0 +1,11 @@
+[
+	{
+		code: "nitre",
+		sealHours: 69,
+		ingredients: [
+			{type: "item",code: "game:waterportion",litres:1,consumelitres:1},		
+			{type: "item",code: "game:saltpeter",quantity: 1}
+	],
+		output: { type: "item", code: "mushroomz:nitre", litres: 1 }
+	}
+]

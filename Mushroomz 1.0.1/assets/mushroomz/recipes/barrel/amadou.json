@@ -1,0 +1,11 @@
+[
+	{
+		code: "nitre",
+		sealHours: 69,
+		ingredients: [
+			{type: "item",code: "mushroomz:nitre",litres:2,consumelitres:2},		
+			{type: "block",code: "game:mushroom-tinderhoof-normal-north",quantity: 3}
+	],
+		output: { type: "item", code: "game:leather-plain", litres: 1 }
+	}
+]

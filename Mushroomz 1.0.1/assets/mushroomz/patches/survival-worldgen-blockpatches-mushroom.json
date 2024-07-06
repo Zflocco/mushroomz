@@ -1,0 +1,322 @@
+[
+  {
+    "op": "add",
+    "path": "/36",
+    "value": {
+      "blockCodes": [
+        "mushroom-dwarvesbeard-normal-north"
+      ],
+      "placement": "OnTrees",
+      "treeType": "Conifer",
+      "minRain": 0.4,
+      "minTemp": 0,
+      "maxTemp": 20,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 2,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/37",
+    "value": {
+      "blockCodes": [
+        "mushroom-dimplecup-normal"
+      ],
+      "placement": "UnderTrees",
+      "treeType": "Any",
+      "minRain": 0.4,
+      "minTemp": -50,
+      "maxTemp": 15,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 1,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/38",
+    "value": {
+      "blockCodes": [
+        "mushroom-plumphelmet-normal"
+      ],
+      "placement": "UnderTrees",
+      "treeType": "Decidious",
+      "minRain": 0.4,
+      "minTemp": -25,
+      "maxTemp": 25,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 4,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/39",
+    "value": {
+      "blockCodes": [
+        "mushroom-pigtail-normal"
+      ],
+      "placement": "UnderTrees",
+      "treeType": "Decidious",
+      "minRain": 0.4,
+      "minTemp": -15,
+      "maxTemp": 22,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 2,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  },
+
+
+
+
+
+
+
+  {
+    "op": "add",
+    "path": "/40",
+    "value": {
+      "blockCodes": [
+        "mushroom-waxcap-normal"
+      ],
+      "placement": "UnderTrees",
+      "treeType": "Decidious",
+      "minRain": 0.4,
+      "minTemp": -5,
+      "maxTemp": 15,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 0.5,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/41",
+    "value": {
+      "blockCodes": [
+        "mushroom-basiliskfang-normal-north"
+      ],
+      "placement": "OnTrees",
+      "treeType": "Decidious",
+      "minRain": 0.4,
+      "minTemp": -10,
+      "maxTemp": 23,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 0.2,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/42",
+    "value": {
+      "blockCodes": [
+        "mushroom-utzathudal-normal"
+      ],
+      "placement": "UnderTrees",
+      "treeType": "Any",
+      "minRain": 0.4,
+      "minTemp": -20,
+      "maxTemp": 30,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 0.4,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  }, 
+  {
+    "op": "add",
+    "path": "/43",
+    "value": {
+      "blockCodes": [
+        "mushroom-goldenloaf-normal"
+      ],
+      "placement": "UnderTrees",
+      "treeType": "Decidious",
+      "minRain": 0.4,
+      "minTemp": -12,
+      "maxTemp": 18,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 0.1,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  },   
+  {
+    "op": "add",
+    "path": "/44",
+    "value": {
+      "blockCodes": [
+        "mushroom-zubarf-normal-north"
+      ],
+      "placement": "OnTrees",
+      "treeType": "Tropical",
+      "minRain": 0.4,
+      "minTemp": -25,
+      "maxTemp": 21,
+      "quantity": {
+        "avg": 1,
+        "var": 0
+      },
+      "chance": 0.3,
+      "randomMapCodePool": [
+        "mush1",
+        "mush2",
+        "mush3",
+        "mush4",
+        "mush5",
+        "mush6",
+        "mush7"
+      ]
+    },
+    "file": "game:worldgen/blockpatches/mushroom.json"
+  },    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+]

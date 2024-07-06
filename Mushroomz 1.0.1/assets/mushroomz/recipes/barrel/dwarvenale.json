@@ -1,0 +1,10 @@
+[
+	{
+		code: "dwarfale",
+		sealHours: 142,
+		ingredients: [
+			{type: "block",code: "game:mushroom-goldenloaf-normal",quantity: 16}
+	],
+		output: { type: "item", code: "dwarfale", litres: 2 }
+	}
+]

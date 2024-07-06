@@ -1,0 +1,36 @@
+	1.0.1
+	Fixed : 
+- Texture mapping, should have no errors now.
+- Substrate recipe had a bit of a goof on using nothing but high fertility but interchangeably with quantities of 1 or 2.
+
+	Adjusted : 
+- Dwarvish Wine Ratios : Now only needs 16 plumps to start brewing, removed need for water as it'd cause a weird bug.
+
+	Added : 
+Amadou : Take 3 Tinderhoof and put it into a barrel with nitre and you get leather
+Nitre : Take saltpeter and put it in a barrel with an equal amount of water.
+Waxcap - Red Dye - 3x into "wax" , -5c , 40/85 Vegetable
+Ut-Zathudal : -20c , 25/50 Protein
+
+Golden Loaf - -12c , 75/135 Grain - Orange dye - A Starchy mushroom that can be processed into a flatbread or an ale.
+Dwarvish Ale - A rather potent alcohol not for the faint of heart made from Golden Loaves, unfortunately compared to dwarf wine their ale spoils quite quickly; not that, that's ever a problem for dwarves!
+
+Basilisk venom - 20/40 Dairy Saturation -  -15hp Raw - White dye 		-10c
+This poisonous and rare mushroom spreads it's spores by a unique mechanism, the 'fang' of the mushroom drips a sticky calcium rich poison that's laden with spores, on contact with a small animal such as a squirrel or rabbit they'll die within a few hours and the spores will take root.
+
+Zubarf - Yellow dye - A psychotropic mushroom that tastes a bit like sour onion. -25c , 30/60 veg sat, has deliterious effects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
